@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="front_side.css">
+
+    <link rel="stylesheet" href="side-custom.css">
+    <script src="side-custom.js"></script>
+
+    <link rel="stylesheet" href="front-custom.css">
+    <script src="front-custom.js"></script>
+    <script src="functions.js"></script>
+</head>
+
+<body>
+    <div class="building-container">
+
+        <div class="main-block">
+            <div class="side side-front front">
+                <div style="height: 70px" id="row1"></div>
+                <div id="row2"></div>
+                <div id="row3"></div>
+                <div id="row4"></div>
+                <div id="row5" style="height: 70px"></div>
+            </div>
+            <div class="side side-front back"></div>
+            <div class="side side-left right"></div>
+            <div class="side side-left left" id="sideWrap1"></div>
+            <div class="side side-top top"></div>
+            <div class="side side-top bottom"></div>
+            <div class="pillar-block one">
+                    <div class="pillar front"></div>    
+                    <div class="pillar left"></div>    
+                    <div class="pillar right"></div>    
+                    <div class="pillar back"></div>    
+            </div>
+            <div class="pillar-block two">
+                    <div class="pillar front"></div>    
+                    <div class="pillar left"></div>    
+                    <div class="pillar right"></div>    
+                    <div class="pillar back"></div>    
+            </div>
+        </div>
+        <div class="main-block" style="transform: translateX(-180px) translateY(110px) rotateX(6deg) rotateY(-22deg);">
+                <div class="side side-front front">
+                    <div style="height: 70px" id="row6"></div>
+                    <div id="row7"></div>
+                    <div id="row8"></div>
+                    <div id="row9"></div>
+                    <div id="row10" style="height: 70px"></div>
+                </div>
+                <div class="side side-front back"></div>
+                <div class="side side-left right"></div>
+                <div class="side side-left left" id="sideWrap2"></div>
+                <div class="side side-top top"></div>
+                <div class="side side-top bottom"></div>
+                <div class="pillar-block one">
+                        <div class="pillar front"></div>    
+                        <div class="pillar left"></div>    
+                        <div class="pillar right"></div>    
+                        <div class="pillar back"></div>    
+                </div>
+                <div class="pillar-block two">
+                        <div class="pillar front"></div>    
+                        <div class="pillar left"></div>    
+                        <div class="pillar right"></div>    
+                        <div class="pillar back"></div>    
+                </div>
+            </div>
+        <div class="ground"></div>
+
+    </div>
+
+    <script>
+        // first block
+        createRow15Front(1);
+        createRow15Front(5);
+        createRow2Front(2);
+        createRow2Front(3);
+        createRow2Front(4);
+        createLeftPanel(8,1);
+        // second block
+        createRow15Front(6);
+        createRow15Front(10);
+        createRow2Front(7)
+        createRow2Front(8)
+        createRow2Front(9)
+        createLeftPanel(8,2);
+
+</script>
+</body>
+
+</html>

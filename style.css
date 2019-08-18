@@ -1,0 +1,106 @@
+html,body{
+    height: 100%;
+    width: 100%;
+    padding: unset;
+    margin:unset;
+}
+body{
+}
+.building-container{
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+
+.main-block{
+    width: 800px;
+    height: 440px;
+    /* background: green; */
+    transform-style: preserve-3d;
+    /* transform: rotateX(-40deg) rotateY(32deg); */
+    /* margin: 1.5em auto; */
+    transform:translateX(292px) translateY(73px) rotateX(6deg) rotateY(-22deg);
+}
+.side{
+    position: absolute;
+    /* background: rgba(tomato, .6); */
+    border: 1px solid rgba(0,0,0,.5);
+    /* background: white;  */
+    text-align: center;
+}
+.side-front{
+    /* width: 600px;
+    height: 500px; */
+    width: 760px;
+    height: 440px;
+}
+.side-left{
+    width: 200px;
+    /* height: 500px; */
+    height: 440px;
+}
+.side-top{
+    width: 760px;
+    height: 200px;
+}
+.front{
+    background: white; 
+}
+.back{
+    transform: translateZ(200px);
+}
+.right{
+    transform: rotateY(90deg)  translateZ(660px) translateX(-100px);
+}
+.left {
+    background: white; 
+    transform: rotateY(-90deg) translateZ(100px) translateX(100px);
+}
+.top {
+    background: white; 
+    transform: rotateX(90deg) translateZ(100px) translateY(100px);
+}
+.bottom {
+    transform: rotateX(90deg) translateZ(-340px) translateY(100px);
+}
+.wrapper{
+    width: 100px;
+    height: 100px;
+    background: green;
+}
+
+.pillar-block.one{
+        left: 58px;
+        position: absolute;
+        bottom: 0px;
+}
+.pillar-block.two{
+    left: 58px;
+    position: absolute;
+    bottom: 0px;
+}
+.pillar{
+    position: absolute;
+    background: rgba(tomato, .6);
+    border: 1px solid rgba(0,0,0,.5);
+    width: 40px;
+    height: 70px;
+}
+.pillar.back{
+    transform: translateZ(40px);
+}
+.pillar.right{
+    transform: rotateY(90deg)  translateZ(20px) translateX(-20px)
+}
+.pillar.left {
+   transform:  rotateY(90deg) translateZ(-20px) translateX(-20px);
+    /* transform: rotateY(-90deg) translateZ(100px) translateX(100px); */
+}
+.ground{
+    position: absolute;
+    width: 800px;
+    height: 1055px;
+    transform: rotateX(90deg) translateX(-79px) translate3d(21px, -153px, -22px);
+    border: 2px solid;
+    background: url(sample.jpg);
+}

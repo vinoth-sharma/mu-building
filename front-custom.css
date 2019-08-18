@@ -1,0 +1,83 @@
+.glass2-wrap{
+    width: 40px;
+    background: #babae2;
+    height: 80%;
+    margin: 7px;
+    display: flex;
+    box-shadow: inset 2px 2px 2.5px #423f3f;
+}
+.glass1-wrap{
+    width: 20px;
+    background: #babae2;
+    height: 80%;
+    margin: 7px;
+    /* display: flex; */
+    box-shadow: inset 2px 2px 2.5px #423f3f;
+}
+.glass2-half{
+    border-right: 1px solid grey;
+    width: 50%;
+}
+.glass3-half{
+    border-right: 1px solid grey;
+    width: 35%;
+}
+.glass2-half-seg{
+    width: 100%;
+    height: 31%;
+    border-bottom: 1px solid grey;
+}
+
+.glass2r-wrap{
+    width: 60px;
+    height: 80%;
+    margin: 7px;
+    border: 1px solid grey;
+    /* display: flex; */
+    position: relative;
+    background: #babae2;
+    box-shadow: inset 2px 2px 2.5px #423f3f;
+
+}
+.glass2r-row{
+    width: 100%;
+    height: 36%;
+    display: flex;
+}
+
+.glass2r-brown-l{
+    background: #a48372;
+    border-left: 1px solid #303031;
+    width: 30%;
+    height: 100%;
+    left: 0px;
+    position: absolute;
+    top: 0px;
+}
+.glass2r-brown-r{
+    background: #a48372;
+    border-left: 1px solid #303031;
+    width: 30%;
+    height: 100%;
+    right: 0px;
+    position: absolute;
+    top: 0px;
+}
+.glass2r-brown-c{
+    background: #a48372;
+    border-left: 1px solid #303031;
+    width: 30%;
+    height: 100%;
+    left: 33%;
+    position: absolute;
+    top: 0px;
+}
+.glass2r-box{
+    width: 32%;
+    height: 100%;
+    border-right: 1px solid grey;
+}
+.glass2r-bo{
+    height: 50%;
+    border-bottom: 1px solid grey;
+}

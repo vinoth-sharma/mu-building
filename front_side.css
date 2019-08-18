@@ -1,0 +1,33 @@
+.front > div{
+    width: 100%;
+    height: 100px;
+    display: flex;
+}
+.front > div > div{
+    box-shadow: inset 1px 1px 4px #423f3f;
+    position: relative;
+}
+
+.box_l{
+    width: 60px;
+    background: #babae2;
+    height: 80%;
+    margin: 7px;
+}
+.box_l::before{
+    content: "";
+    width: 30%;
+    height: 100%;
+    left: 0px;
+    position: absolute;
+    border-right: 1px solid #303031;
+}
+.box_l::after{
+    background: #a48372;
+    content: "";
+    border-left: 1px solid #303031;
+    width: 30%;
+    height: 100%;
+    right: 0px;
+    position: absolute;
+}
