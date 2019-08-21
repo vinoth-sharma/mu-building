@@ -10,6 +10,7 @@ body{
     height: 100%;
     width: 100%;
     display: flex;
+    background-image: linear-gradient(#7ca0de,#dee6ef,#9e9e9e);
 }
 
 .main-block{
@@ -100,7 +101,7 @@ body{
     position: absolute;
     width: 800px;
     height: 1055px;
-    transform: rotateX(90deg) translateX(-79px) translate3d(21px, -153px, -22px);
+    transform: rotateX(76deg) rotateZ(-44deg) translateX(167px) translateZ(-230px);
     border: 2px solid;
     background: url(sample.jpg);
 }
