@@ -1,0 +1,138 @@
+.tank {
+    width: 260px;
+    height: 260px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+    position: relative;
+}
+
+.wall span {
+    display: block;
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    font-size: 35px;
+    text-align: center;
+    line-height: 200px;
+    color: white;
+    opacity: 0.3;
+}
+
+
+/* ================================= */
+
+.stage {
+    width: 260px;
+    height: 260px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+    position: relative;
+    -moz-perspective: 100px;
+    -webkit-perspective: 100px;
+    perspective: 1500px;
+    -moz-perspective-origin: 3.5% -240px;
+    -webkit-perspective-origin: 63.5% -240px;
+    perspective-origin: 73.5% -240px;
+}
+
+.walls,
+.waterlevel {
+    -moz-transform-style: preserve-3d;
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    -moz-transform-origin: 100px 50%;
+    -ms-transform-origin: 100px 50%;
+    -o-transform-origin: 100px 50%;
+    -webkit-transform-origin: 100px 50%;
+    transform-origin: 100px 60%;
+}
+
+.waterlevel span,
+.walls span {
+    display: block;
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    font-size: 35px;
+    text-align: center;
+    line-height: 200px;
+    color: white;
+    opacity: 0.3;
+}
+
+.waterlevel span {
+    opacity: 1.0;
+    font-size: 20px;
+}
+
+.walls .back {
+    transform: rotateY(240deg) translateZ(125px);
+    background-color: #A7C721;
+    border-radius: 25px 25px 0 0;
+}
+
+.waterlevel .top {
+    transform: rotateX(90deg) rotateZ(-150deg) rotateY(0deg) translateZ(-15px);
+    background-color: #18A3EF;
+    opacity: 1.0;
+    border-radius: 25px;
+    border: 1px solid #ccc;
+    width: 252px;
+    height: 252px;
+}
+
+.walls .bottom {
+    transform: rotateX(-90deg) rotateZ(-120deg) translateZ(125px);
+    box-shadow: 0 10px 100px rgba(0, 0, 0, 0.7);
+    background-color: #222;
+    opacity: 1;
+    border-radius: 25px;
+}
+
+.walls .left {
+    transform: rotateY(-30deg) translateZ(125px);
+    background-color: #abc;
+    border-radius: 25px 25px 0 0;
+}
+
+.walls .right {
+    transform: rotateY(60deg) translateZ(125px);
+    background-color: #c2ccaa;
+    border-radius: 25px 25px 0 0;
+}
+
+.walls .front {
+    transform: rotateY(150deg) translateZ(125px);
+    background-color: #A7C721;
+    border-radius: 25px 25px 0 0;
+}
+
+.waterlevel .left {
+    top: 150px;
+    height: 100px;
+    background-color: #18A3EF;
+    border-radius: 0;
+}
+
+.waterlevel .right {
+    top: 150px;
+    height: 100px;
+    background-color: #18A3EF;
+    border-radius: 0;
+}
+
+.waterlevel .back {
+    top: 150px;
+    height: 100px;
+    background-color: #18A3EF;
+    border-radius: 0;
+}
+
+.waterlevel .front {
+    top: 150px;
+    height: 100px;
+    background-color: #18A3EF;
+    border-radius: 0;
+}
