@@ -87,9 +87,9 @@ body {}
     position: absolute;
     width: 800px;
     height: 1055px;
-    transform: rotateX(79deg) rotateZ(-44deg) translateX(-201px) translateZ(10px);
+    transform: rotateX(84deg) rotateZ(-109deg) translateX(-201px) translateZ(10px) translateY(230px);
     border: 2px solid;
-    background: url(sample.jpg);
+    background: blanchedalmond;
 }
 
 .logo {

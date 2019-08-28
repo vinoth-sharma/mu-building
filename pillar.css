@@ -1,3 +1,6 @@
+.pillar-block{
+    display: none;
+}
 .pillar-block.one {
     left: 58px;
     position: absolute;
