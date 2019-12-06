@@ -3,7 +3,7 @@ class sideGlass extends HTMLElement {
         super();
     }
 
-    var wrapper;
+    public wrapper;
 
     connectedCallback() {
         this.wrapper = document.createElement('div');
