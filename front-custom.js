@@ -1,8 +1,9 @@
+ wrapper;
 class glass1 extends HTMLElement {
     constructor() {
         super();
     }
-    wrapper;
+   
     connectedCallback() {
         this.wrapper = document.createElement('div');
         this.wrapper.setAttribute('class', 'glass1-wrap');
