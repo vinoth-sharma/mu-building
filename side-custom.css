@@ -1,4 +1,4 @@
-.ls_box{
+.ls_box {
     width: 90%;
     display: flex;
     margin: 5%;
@@ -7,13 +7,31 @@
     background: #babae2;
     border: 1px solid grey;
 }
-.ls_box > div{
+
+.ls_box>div {
     width: 25%;
     height: 100%;
     border-right: 1px solid grey;
 }
-.ls_box_sm{
+
+.ls_box_sm {
     width: 100%;
     height: 32%;
     border-bottom: 1px solid grey;
+}
+
+glass-side:nth-of-type(odd) {
+    position: relative;
+    animation-name: side-movement1;
+    animation-duration: 2s;
+    animation-iteration-count: 2;
+    animation-direction: alternate;
+}
+
+glass-side:nth-of-type(even) {
+    position: relative;
+    animation-name: side-movement2;
+    animation-duration: 5s;
+    /* animation-iteration-count: 2; */
+    /* animation-direction: alternate; */
 }
