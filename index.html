@@ -89,7 +89,7 @@
                 <div class="pillar right"></div>
                 <div class="pillar back"></div>
             </div>
-            <div class="logo"></div>
+            <div id="logo1"></div>
         </div>
 
 
@@ -110,6 +110,10 @@
         createRow2Front(8)
         createRow2Front(9)
         createLeftPanel(8, 2);
+        // setTimeout(() => {
+        let my_div = document.getElementById("logo1");
+        my_div.setAttribute("class", "logo")
+            // }, 3000);
     </script>
 </body>
 

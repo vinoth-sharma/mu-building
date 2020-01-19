@@ -100,4 +100,7 @@ body {}
     position: absolute;
     box-shadow: 1px 1px 4px 1px grey;
     margin: 12px;
+    animation-name: logo-animate;
+    animation-duration: 2s;
+    animation-delay: 4s;
 }
