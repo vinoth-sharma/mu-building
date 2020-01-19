@@ -1,8 +1,9 @@
+ wrapper;
 class glass1 extends HTMLElement {
     constructor() {
         super();
     }
-    wrapper;
+   
     connectedCallback() {
         this.wrapper = document.createElement('div');
         this.wrapper.setAttribute('class', 'glass1-wrap');
@@ -27,7 +28,7 @@ class glass2 extends HTMLElement {
     constructor() {
         super();
     }
-    wrapper;
+  
     connectedCallback() {
         this.wrapper = document.createElement('div');
         this.wrapper.setAttribute('class', 'glass2-wrap');
@@ -56,7 +57,7 @@ class glass3 extends HTMLElement {
     constructor() {
         super();
     }
-    wrapper;
+  
     connectedCallback() {
         this.wrapper = document.createElement('div');
         this.wrapper.setAttribute('class', 'glass2-wrap');
@@ -90,7 +91,7 @@ class glass2r extends HTMLElement {
     constructor() {
         super();
     }
-    wrapper;
+
     connectedCallback() {
         let col = 3;
         let position_grey = 'l';

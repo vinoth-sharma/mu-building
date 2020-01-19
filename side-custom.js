@@ -1,9 +1,10 @@
+    var wrapper;
 class sideGlass extends HTMLElement {
     constructor() {
         super();
     }
 
-    wrapper;
+
 
     connectedCallback() {
         this.wrapper = document.createElement('div');
