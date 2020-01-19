@@ -23,15 +23,15 @@
 glass-side:nth-of-type(odd) {
     position: relative;
     animation-name: side-movement1;
-    animation-duration: 2s;
-    animation-iteration-count: 2;
+    animation-duration: 4s;
+    animation-iteration-count: 1;
     animation-direction: alternate;
 }
 
 glass-side:nth-of-type(even) {
     position: relative;
     animation-name: side-movement2;
-    animation-duration: 5s;
+    animation-duration: 4s;
     /* animation-iteration-count: 2; */
     /* animation-direction: alternate; */
 }

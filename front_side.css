@@ -1,20 +1,22 @@
-.front > div{
+.front>div {
     width: 100%;
     height: 100px;
     display: flex;
 }
-.front > div > div{
+
+.front>div>div {
     box-shadow: inset 1px 1px 4px #423f3f;
     position: relative;
 }
 
-.box_l{
+.box_l {
     width: 60px;
     background: #babae2;
     height: 80%;
     margin: 7px;
 }
-.box_l::before{
+
+.box_l::before {
     content: "";
     width: 30%;
     height: 100%;
@@ -22,7 +24,8 @@
     position: absolute;
     border-right: 1px solid #303031;
 }
-.box_l::after{
+
+.box_l::after {
     background: #a48372;
     content: "";
     border-left: 1px solid #303031;
@@ -30,4 +33,34 @@
     height: 100%;
     right: 0px;
     position: absolute;
+}
+
+glass-1:nth-of-type(odd),
+glass-2:nth-of-type(odd),
+glass-3:nth-of-type(odd),
+div.box_l:nth-of-type(odd),
+glass-2r:nth-of-type(odd) {
+    animation-name: main-wall-movement1;
+    animation-duration: 4s;
+    /* animation-iteration-count: 2; */
+    /* animation-direction: alternate; */
+}
+
+glass-1:nth-of-type(even),
+glass-2:nth-of-type(even),
+glass-3:nth-of-type(even),
+div.box_l:nth-of-type(even),
+glass-2r:nth-of-type(even) {
+    animation-name: main-wall-movement2;
+    animation-duration: 4s;
+    /* animation-iteration-count: 2; */
+    animation-direction: alternate;
+}
+
+.glass2r-wrap,
+.glass1-wrap {
+    animation-name: main-wall-shadow;
+    animation-duration: 1s;
+    animation-delay: 3s;
+    /* animation-iteration-count: 2; */
 }
