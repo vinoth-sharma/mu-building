@@ -1,6 +1,22 @@
 .pillar-block{
-    display: none;
+    /* display: none; */
 }
+#pillar-container{
+    width: 800px;
+    height: 440px;
+    /* background: green; */
+    transform-style: preserve-3d;
+    /* transform: rotateX(-40deg) rotateY(32deg); */
+    /* margin: 1.5em auto; */
+    position: absolute;
+}
+#pillar-container.onnu{
+    transform: translateX(286px) translateY(76px) rotateX(6deg) rotateY(-22deg);
+}
+#pillar-container.rendu{
+    transform: translateX(233px) translateY(74px) rotateX(6deg) rotateY(-22deg)
+}
+
 .pillar-block.one {
     left: 58px;
     position: absolute;
@@ -8,7 +24,7 @@
 }
 
 .pillar-block.two {
-    right: 58px;
+    right: -20px;
     position: absolute;
     bottom: 0px;
 }
@@ -25,21 +41,29 @@
 
 .pillar {
     position: absolute;
-    background: rgba(tomato, .6);
+    opacity: 0.35;
+    background: black;
     border: 1px solid rgba(0, 0, 0, .5);
     width: 40px;
     height: 70px;
 }
 
-.pillar.back {
+.pillar.p_back {
     transform: translateZ(40px);
 }
 
-.pillar.right {
+.pillar.p_right {
     transform: rotateY(90deg) translateZ(20px) translateX(-20px)
 }
 
-.pillar.left {
+.pillar.p_left {
     transform: rotateY(90deg) translateZ(-20px) translateX(-20px);
     /* transform: rotateY(-90deg) translateZ(100px) translateX(100px); */
+}
+.pillar.p_left1 {
+    transform: rotateY(90deg) translateZ(-20px) translateX(-170px)
+    /* transform: rotateY(-90deg) translateZ(100px) translateX(100px); */
+}
+.pillar.p_front1 {
+    transform: translateZ(147px);
 }
