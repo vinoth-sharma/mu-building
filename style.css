@@ -85,9 +85,9 @@ body {}
 
 .ground {
     position: absolute;
-    width: 800px;
-    height: 900px;
-    transform: rotateX(84deg) rotateZ(-109deg) translateX(-201px) translateZ(-131px) translateY(200px);
+    width: 1110px;
+    height: 1003px;
+    transform: rotateX(84deg) rotateZ(-203deg) translateX(-281px) translateZ(-117px) translateY(202px);
     border: 2px solid;
     background: #adadad;
 }
