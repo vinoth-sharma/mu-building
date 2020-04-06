@@ -42,7 +42,7 @@
 .pillar {
     position: absolute;
     opacity: 0.35;
-    background: black;
+    background: #2d2b2bb5;
     border: 1px solid rgba(0, 0, 0, .5);
     width: 40px;
     height: 70px;
